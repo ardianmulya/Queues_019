@@ -10,6 +10,12 @@ namespace Queues_019
     {
         int FRONT, REAR, max = 5;
         int[] queue_array = new int[5];
+
+        public Queues()
+        {
+            FRONT = 0;
+            REAR = 0;
+        }
         static void Main(string[] args)
         {
         }
