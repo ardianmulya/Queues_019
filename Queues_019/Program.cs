@@ -18,7 +18,11 @@ namespace Queues_019
         }
         public void insert (int element)
         {
-
+            if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
+            {
+                Console.WriteLine("\n Queue overflow\n");
+                return;
+            }
         }
         static void Main(string[] args)
         {
