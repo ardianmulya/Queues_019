@@ -68,6 +68,32 @@ namespace Queues_019
                 Console.WriteLine("Queue is empty\n");
                 return;
             }
+            Console.WriteLine("\nElements in the queue are . . . . . . . . . . . . . . ");
+            if (FRONT_position <= REAR_position)
+            {
+                while (FRONT_position <= REAR_position)
+                {
+                    Console.WriteLine(queue_array[FRONT_position]+"   ");
+                    FRONT_position++;
+                }
+                Console.WriteLine();
+            }
+            else
+            {
+                while(FRONT_position <= max - 1)
+                {
+                    Console.WriteLine(queue_array[FRONT_position] + "    ");
+                    FRONT_position++;
+                }
+                FRONT_position = 0;
+
+                while(FRONT_position <= REAR_position)
+                {
+                    Console.WriteLine(queue_array[FRONT_position]+"     ");
+                    FRONT_position++;
+                }
+                Console.WriteLine();
+            }
         }
         static void Main(string[] args)
         {
