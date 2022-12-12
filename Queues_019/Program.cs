@@ -23,6 +23,11 @@ namespace Queues_019
                 Console.WriteLine("\n Queue overflow\n");
                 return;
             }
+            if(FRONT == -1)
+            {
+                FRONT = 0;
+                REAR = 0;
+            }
         }
         static void Main(string[] args)
         {
