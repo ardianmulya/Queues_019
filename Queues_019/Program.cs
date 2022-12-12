@@ -44,6 +44,12 @@ namespace Queues_019
                 Console.WriteLine("Queue underflow");
                 return ;
             }
+            Console.WriteLine("\nThe elemet deleted from the queue is : " + queue_array[FRONT]+"\n");
+            if (FRONT == REAR)
+            {
+                FRONT=-1;
+                REAR=-1;
+            }
         }
         static void Main(string[] args)
         {
