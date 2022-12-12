@@ -28,6 +28,11 @@ namespace Queues_019
                 FRONT = 0;
                 REAR = 0;
             }
+            else
+            {
+                if (REAR == max - 1)
+                    REAR = 0;
+            }
         }
         static void Main(string[] args)
         {
