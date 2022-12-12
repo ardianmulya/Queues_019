@@ -98,6 +98,7 @@ namespace Queues_019
         static void Main(string[] args)
         {
             Queues queue = new Queues();
+            char ch;
         }
     }
 }
