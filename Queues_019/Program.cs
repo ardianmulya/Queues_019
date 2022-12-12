@@ -39,7 +39,11 @@ namespace Queues_019
         }
         public void remove()
         {
-
+            if (FRONT == -1)
+            {
+                Console.WriteLine("Queue underflow");
+                return ;
+            }
         }
         static void Main(string[] args)
         {
