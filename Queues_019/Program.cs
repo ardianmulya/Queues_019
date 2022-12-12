@@ -32,6 +32,8 @@ namespace Queues_019
             {
                 if (REAR == max - 1)
                     REAR = 0;
+                else
+                    REAR = REAR + 1;
             }
         }
         static void Main(string[] args)
