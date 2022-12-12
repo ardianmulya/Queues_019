@@ -62,6 +62,12 @@ namespace Queues_019
         {
             int FRONT_position = FRONT;
             int REAR_position = REAR;
+
+            if (FRONT == -1)
+            {
+                Console.WriteLine("Queue is empty\n");
+                return;
+            }
         }
         static void Main(string[] args)
         {
