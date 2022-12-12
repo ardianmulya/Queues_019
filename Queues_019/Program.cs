@@ -35,6 +35,7 @@ namespace Queues_019
                 else
                     REAR = REAR + 1;
             }
+            queue_array[REAR] = element;
         }
         static void Main(string[] args)
         {
