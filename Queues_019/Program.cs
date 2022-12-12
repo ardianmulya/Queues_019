@@ -37,6 +37,10 @@ namespace Queues_019
             }
             queue_array[REAR] = element;
         }
+        public void remove()
+        {
+
+        }
         static void Main(string[] args)
         {
         }
