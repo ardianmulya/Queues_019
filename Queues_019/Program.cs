@@ -13,8 +13,8 @@ namespace Queues_019
 
         public Queues()
         {
-            FRONT = 0;
-            REAR = 0;
+            FRONT = -1;
+            REAR = -1;
         }
         public void insert (int element)
         {
@@ -109,7 +109,7 @@ namespace Queues_019
                     Console.WriteLine("3. Display values");
                     Console.WriteLine("4. Exit");
                     Console.Write("\nEnter your choice: ");
-                    ch = Convert.ToChar(Console.Read());
+                    ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
                     switch (ch)
                     {
