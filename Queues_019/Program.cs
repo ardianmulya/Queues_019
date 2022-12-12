@@ -16,6 +16,10 @@ namespace Queues_019
             FRONT = 0;
             REAR = 0;
         }
+        public void insert (int element)
+        {
+
+        }
         static void Main(string[] args)
         {
         }
